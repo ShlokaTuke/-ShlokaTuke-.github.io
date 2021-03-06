@@ -211,14 +211,14 @@ padding-top: 10px;
     text-align: center;
     width: 100%;
     position: relative;
-    left:30px;
+    left:0px;
   }
   svg{
     display: none;
   }
   .container{
     position:relative;
-    left:20px;
+    left:0px;
 
   }
 }

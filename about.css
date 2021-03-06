@@ -336,5 +336,13 @@ svg{
   .innercont h1{
     animation: none;
   }
-
+  svg{
+    display: none;
+  }
+.lastcontainer .workhours{
+  padding: 5px;
+}
+.lastcontainer .Address{
+  padding: 5px;
+}
 }
