@@ -3,6 +3,8 @@
   <head>
 
     <link rel="stylesheet" type="text/css" href="video.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <meta charset="utf-8">
     <title>SAAR Tech</title>
     <style>
@@ -15,12 +17,23 @@
   <body>
     <div class="menus">
       <img src="images/pic.png" alt="">
+      <div class="toggle">
+  <i class="fa fa-bars menu" aria-hidden="true"></i>
+  </div>
     <ul>
         <li><a href="contact.html">Contact</a></li>
           <li><a href="service.html">Services</a></li>
             <li><a href="products.html">Products</a></li>
               <li><a href="about.html">About Us</a></li>
                     <li class="current"><a href="video.html">Home</a></li></ul>
+                    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+                <script type="text/javascript">
+                $(document).ready(function(){
+                $('.menu').click(function(){
+                $('ul').toggleClass('active');
+                })
+                })
+                </script>
     </div>
 
       <div class="banner">
@@ -31,38 +44,6 @@
           <P>IT and Infrastructure Consulting</P>
         </div>
     </div>
-
-    <div class="section1">
-
-      <div class="para1">
-      <h1>IT Solution Service</h1>
-      <a href="solution.html">Click here to know more</a>
-    </div>
-    <div class="para2">
-      <img src="images/PC.png" />
-      </div>
-      </div>
-
-      <div class="section2">
-        <div class="imagee">
-          <img src="images/metro2.jpg" style="width:500px;height:400px"/>
-        </div>
-        <div class="text">
-          <h2><span>AFCS</span><br /> Automatic Fare Collection System</h2>
-          <a href="afcs.html">Click here to know more</a>
-        </div>
-        </div>
-
-        <div class="section3">
-          <div class="text">
-            <h2><span>Surveillance System</span><br /></h2>
-            <a href="survel.html">Click here to know more</a>
-          </div>
-          <div class="imagee">
-            <img src="images/camera2.jpg" style="width:500px;height:500px"/>
-          </div>
-          </div>
-
           <div class="container">
             <div class="box">
               <div class="icon">01</div>
@@ -77,9 +58,7 @@
               <div class="icon">02</div>
               <div class="content">
                 <h1>Automatic flap/swing gate</h1>
-                <p>Automatic Fare Gates allows passage through validation of QR tickets as well as Smart Cards
-
-</p>
+                <p>Automatic Fare Gates allows passage through validation of QR tickets as well as Smart Cards</p>
                 <a href="#">Read More</a>
               </div>
             </div>

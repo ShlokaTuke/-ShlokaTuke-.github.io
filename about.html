@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <link rel="stylesheet" type="text/css" href="about.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <title>SAAR Tech</title>
@@ -10,22 +11,29 @@
     </style>
   </head>
   <body>
+    <div class="menus">
+      <img src="images/pic.png" alt="">
+      <div class="toggle">
+<i class="fa fa-bars menu" aria-hidden="true"></i>
+</div>
+      <ul>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li class="current"><a href="aboutus.html">About us</a></li>
+        <li><a href="index.html">Home</a></li>
+      </ul>
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.menu').click(function(){
+$('ul').toggleClass('active');
+})
+})
+</script>
+    </div>
     <div class="aboutsection">
-
-
-      <div class="menus">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="aboutus.html">About us</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="service.html">Services</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-
-
-
-      <div class="innercont">
+   <div class="innercont">
         <h1>About Us</h1>
         <p class="infor">
           We, SAAR technologies have emerged as core engineering-based solution provider

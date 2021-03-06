@@ -5,14 +5,21 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
-.menus{
+.menus img{
   position: absolute;
-  right: 120px;
-  top:30px;
+  left: 0;
+  top:-25px;
 }
-
+.menus{
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  background: #BBD631;
+  z-index: 2;
+  opacity: 1;
+}
 .menus ul li{
+  float:right;
   display: inline-block;
   list-style: none;
   height: 35px;
@@ -20,23 +27,30 @@
 .menus ul li a{
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: black;
+  font-size: 20px;
   padding: 15px;
 }
 .menus ul li a:hover{
   font-weight: bold;
 }
-.menus .current a{
+.menus ul .current a{
   color: black;
   font-weight: bold;
 }
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	text-align:right;
+	box-sizing:border-box;
+	display:none;
+	}
 .aboutsection{
   background: url("images/pc.jpg") no-repeat left;
   background-color: #BBD631;
   background-size: 55%;
   overflow: hidden;
   padding: 100px 0;
-
 }
 @keyframes im {
   0%{transform: rotateY(0deg);}
@@ -46,7 +60,7 @@
   width: 55%;
   float:right;
   background-color: #FFB20D;
-  padding: 150px;
+  padding: 85px;
   animation-name: im;
   animation-duration: 2s;
 }
@@ -145,6 +159,7 @@
   position: absolute;
   top:25px;
   right:10px;
+  display: block;
 }
 .contact{
   width:100%;
@@ -210,7 +225,7 @@ footer{
 @media screen and (max-width:600px){
   .lastcontainer{
     width: 100%;
-    height: 800px;
+    height: 400px;
 }
 .workhours{
   position: relative;
@@ -230,9 +245,7 @@ footer{
   padding: 10px;
 }
 .computer{
-  position: absolute;
-  top:350px;
-  right:10px;
+  display: none;
 }
 .box{
   height: 50px;
@@ -276,16 +289,52 @@ padding: 4px;
     transform: rotateX(20deg);
   }
 }
-
 svg{
   position: absolute;
   right:50px;
   top:0px;
 }
-@media screen and (max-width: 600px){
-  svg{
-    position: absolute;
-    left:20px;
-    top:280px;
+@media screen and (max-width: 360px){
+  .computer img{
+    display: none;
   }
+  .bottomcontainer{
+    height: 400px;
+  }
+  .bottomcontainer svg{
+    display: none;
+  }
+  .box span{
+    font-size: 30px;
+  }
+
+}
+@media screen and (max-width:700px)
+{
+	.toggle{
+		display:block;
+	}
+	ul {
+		width:100%;
+		display:none;
+		background:#BBD631;
+    text-align: center;
+	}
+	.menus ul li{
+  float: none;
+	    display:block;
+	    z-index:1;
+      padding: 0;
+	}
+	.active{
+		display:block;
+	}
+  .innercont{
+    animation: none;
+    text-align: center;
+  }
+  .innercont h1{
+    animation: none;
+  }
+
 }

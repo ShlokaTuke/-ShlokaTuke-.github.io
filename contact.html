@@ -4,13 +4,35 @@
 
        <link rel="stylesheet" type="text/css" href="contact.css" />
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       </head>
 <link rel="stylesheet" type="text/css" />
 <title>SAAR Tech</title>
  </head>
 <body>
+  <div class="menus">
+    <img src="images/pic.png" alt="">
+    <div class="toggle">
+<i class="fa fa-bars menu" aria-hidden="true"></i>
+</div>
+    <ul>
+      <li class="current"><a href="contact.html">Contact</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About us</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$('.menu').click(function(){
+$('ul').toggleClass('active');
+})
+})
+</script>
+  </div>
   <div class="ani">
-    <svg class="sv" width="1096" height="575" viewBox="0 0 1096 575" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="sv" width="1096" height="575" viewBox="-100 0 1096 575" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="0" height="0" fill="#333"/>
     <g id="undraw_contact_us_15o2 1">
     <path id="Vector" d="M664.31 490.26C666.92 485.42 663.96 479.5 660.56 475.19C657.16 470.88 653 466.39 653.09 460.9C653.22 453.01 661.6 448.34 668.29 444.16C673.258 441.045 677.84 437.352 681.94 433.16C683.655 431.546 685.073 429.644 686.13 427.54C687.52 424.46 687.48 420.94 687.39 417.54C687.103 406.28 686.547 395.027 685.72 383.78" stroke="#3F3D56" stroke-width="4" stroke-miterlimit="10"/>
@@ -124,18 +146,9 @@
     </defs>
     </svg>
 
-  </div>
-     <div class="container">
- <div class="menus">
-<ul>
-           <li><a href="index.html">Home</a></li>
-             <li><a href="about.html">About us</a></li>
-               <li><a href="products.html">Products</a></li>
-                 <li><a href="service.html">Services</a></li>
-                       <li class="current"><a href="contact.html">Contact</a></li></ul>
-       </div>
 
-     <div class="card">
+     <div class="container">
+      <div class="card">
        <i class="card-icon far fa-envelope"></i>
        <p>info@saartechs.com</p>
           </div>
@@ -146,15 +159,13 @@
          <div class="card">
            <i class="card-icon fas fa-map-marker-alt"></i>
            <p>Delhi, India</p>
+         </div>
+       </div>
 
-           </div>
-
-
-     </div>
 
      <div class="director">
-
-       <h1>Shloka</h1>
-       <p>Director and CO-Founder</p>89
+      <h1>Shloka</h1>
+       <p>Director and CO-Founder</p>
+     </div>
    </body>
  </html>
