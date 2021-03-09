@@ -294,7 +294,7 @@ svg{
   right:50px;
   top:0px;
 }
-@media screen and (max-width: 360px){
+@media screen and (max-width: 320px){
   .computer img{
     display: none;
   }
