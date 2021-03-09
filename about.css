@@ -35,7 +35,7 @@
   font-weight: bold;
 }
 .menus ul .current a{
-  color: black;
+  color: #FFB20D;
   font-weight: bold;
 }
 .toggle{
@@ -91,8 +91,8 @@
 }
 @keyframes para {
 0%{transform: rotateX(0deg);}
-50%{transform: rotateX(180deg);}
-100%{transform: rotateX(0deg);}
+50%{transform: rotateX(60deg);}
+
 }
 .skills{
   display: flex;
@@ -256,7 +256,7 @@ footer{
 }
 .menus ul li{
   position: relative;
-  left:40px;
+  left:0px;
   }
 
 .menus ul li a{
@@ -309,23 +309,28 @@ svg{
   }
 
 }
-@media screen and (max-width:700px)
+@media screen and (max-width:360px)
 {
 	.toggle{
 		display:block;
 	}
-	ul {
-		width:100%;
-		display:none;
-		background:#BBD631;
-    text-align: center;
-	}
+  ul {
+    width:40%;
+    float:right;
+    display:none;
+    background:black;
+    text-align:center;
+    padding-bottom: 10px;
+  }
 	.menus ul li{
   float: none;
 	    display:block;
 	    z-index:1;
       padding: 0;
 	}
+  .menus ul li a{
+    color: white;
+  }
 	.active{
 		display:block;
 	}

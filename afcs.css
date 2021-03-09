@@ -4,9 +4,7 @@
   box-sizing: border-box;
   outline: none;
   font-family: sans-serif;
-
 }
-
 .afcs{
   width:100%;
   height:400px;
@@ -21,7 +19,6 @@
   color:#e91e63;
   font-size: 50px;
   letter-spacing: 3px;
-  border-bottom: 5px solid #e91e63;
 }
 .explain{
   height:450px;
@@ -88,13 +85,21 @@
 }
 @media screen and (max-width:600px){
   .explain{
-    height:550px;
-    width: 85%;
-}
+    height:700px;
+    width: 80%;
+  }
   .explain span{
     font: 20px;
-}
+  }
   .explain p{
     font-size: 20px;
-}
+    position: relative;
+    top:50%;
+  }
+  .explain a{
+  margin-top: 30px;
+  }
+  .boxes{
+    margin-top: 80px;
+  }
 }

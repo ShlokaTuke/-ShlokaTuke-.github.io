@@ -86,7 +86,7 @@
 .box:hover{
   background: #BBD631;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:360px){
   .explain{
     height:500px;
     width: 80%;
@@ -96,5 +96,13 @@
 }
   .explain p{
     font-size: 20px;
+    position: relative;
+    top:60%;
+}
+.explain a{
+  margin-top: 30px;
+}
+.boxes{
+    margin-top: 80px;
 }
 }

@@ -163,7 +163,7 @@ padding-top: 10px;
   }
   .menus ul li{
     position: relative;
-    left:40px;
+    left:0px;
     }
 
   .menus ul li a{
@@ -190,19 +190,23 @@ padding-top: 10px;
 		display:block;
 	}
 	ul {
-		width:100%;
+		width:40%;
+    float:right;
 		display:none;
 		background:black;
-    text-align: center;
+    text-align:center;
+    padding-bottom: 10px;
 	}
 	.menus ul li{
   float: none;
 	    display:block;
 	    z-index:1;
       padding: 0;
+      text-align: center;
 	}
   .menus ul li a{
     color: white;
+    text-align: center;
   }
 	.active{
 		display:block;
@@ -212,6 +216,9 @@ padding-top: 10px;
     width: 100%;
     position: relative;
     left:0px;
+  }
+  .director p{
+      margin-bottom: 20px;
   }
   svg{
     display: none;

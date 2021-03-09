@@ -206,21 +206,23 @@ footer{
   }
   .menus ul li{
     position: relative;
-    left:40px;
+    left:0px;
 }
 .menus ul li a{
   padding: 4px;
 }
-@media screen and (max-width:700px)
+@media screen and (max-width:360px)
 {
 	.toggle{
 		display:block;
 	}
-	ul {
-		width:100%;
+  ul {
+		width:40%;
+    float:right;
 		display:none;
 		background:black;
-    text-align: center;
+    text-align:center;
+    padding-bottom: 10px;
 	}
 	.menus ul li{
   float: none;
