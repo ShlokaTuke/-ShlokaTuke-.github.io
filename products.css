@@ -197,20 +197,7 @@ footer{
 	text-align:center;
   font-weight: bold;
 }
-@media screen and (max-width:600px){
-  .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-  .menus ul li{
-    position: relative;
-    left:0px;
-}
-.menus ul li a{
-  padding: 4px;
-}
+
 @media screen and (max-width:360px)
 {
 	.toggle{
@@ -235,6 +222,38 @@ footer{
 	}
 .container .box{
   width: 300px;
+}
+
+}
+@media screen and (max-width:720px)
+{
+	.toggle{
+		display:block;
+	}
+  ul {
+		width:40%;
+    float:right;
+		display:none;
+		background:black;
+    text-align:center;
+    padding-bottom: 10px;
+	}
+	.menus ul li{
+  float: none;
+	    display:block;
+	    z-index:1;
+      padding: 0;
+	}
+	.active{
+		display:block;
+	}
+.container .box{
+  width: 300px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 }
