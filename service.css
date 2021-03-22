@@ -288,7 +288,7 @@ footer{
     }
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:410px){
   	.toggle{
   		display:block;
   	}
