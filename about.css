@@ -191,7 +191,6 @@ footer{
 	text-align:center;
   font-weight: bold;
 }
-
   .menus .active{
     left:0;
   }
@@ -294,22 +293,8 @@ svg{
   right:50px;
   top:0px;
 }
-@media screen and (max-width: 320px){
-  .computer img{
-    display: none;
-  }
-  .bottomcontainer{
-    height: 400px;
-  }
-  .bottomcontainer svg{
-    display: none;
-  }
-  .box span{
-    font-size: 30px;
-  }
 
-}
-@media screen and (max-width:700px)
+@media screen and (max-width:360px)
 {
 	.toggle{
 		display:block;
@@ -349,5 +334,86 @@ svg{
 }
 .lastcontainer .Address{
   padding: 5px;
+}
+.bottomcontainer .box{
+  padding: 10px;
+}
+.bottomcontainer{
+  height: 400px;
+}
+.bottomcontainer .box span{
+  font-size: 25px;
+}
+
+}
+
+
+@media screen and (max-width:720px)
+{
+	.toggle{
+		display:block;
+	}
+  ul {
+    width:40%;
+    float:right;
+    display:none;
+    background:black;
+    text-align:center;
+    padding-bottom: 10px;
+  }
+	.menus ul li{
+  float: none;
+	    display:block;
+	    z-index:1;
+      padding: 0;
+	}
+  .menus ul li a{
+    color: white;
+  }
+	.active{
+		display:block;
+	}
+  .innercont{
+    animation: none;
+    text-align: center;
+  }
+  .innercont h1{
+    animation: none;
+  }
+  svg{
+    display: none;
+  }
+.lastcontainer .workhours{
+  padding: 5px;
+}
+.lastcontainer .Address{
+  padding: 5px;
+}
+.bottomcontainer .box{
+  padding: 10px;
+  position: absolute;
+  top:100px;
+  left:100px;
+}
+.bottomcontainer{
+  height: 400px;
+}
+.bottomcontainer .box span{
+  font-size: 25px;
+}
+.lastcontainer .computer img{
+  display: none;
+}
+.workhours{
+  position: absolute;
+  top:100px;
+  left:100px;
+  width: 500px;
+}
+.Address{
+  position: absolute;
+  top:250px;
+  left:100px;
+  width: 500px;
 }
 }
