@@ -190,7 +190,7 @@ footer{
   		display:block;
   	}
   	ul {
-  		width:360px;
+  		width:40%;
       float:right;
   		display:none;
   		background:black;
@@ -252,7 +252,7 @@ footer{
       width:360px;
     }
     .section2 .text span{
-      font-size: 60px;
+      font-size: 20px;
     }
     .section2 .text h2{
       font-size: 20px;
@@ -285,61 +285,5 @@ footer{
     }
     .section3 .text a{
       padding:5px;
-    }
-}
-
-@media screen and (max-width:720px){
-  	.toggle{
-  		display:block;
-  	}
-  	ul {
-  		width:720px;
-      float:right;
-  		display:none;
-  		background:black;
-      text-align: center;
-      padding-bottom: 10px;
-  	}
-  	.menus ul li{
-    float: none;
-  	    display:block;
-  	    z-index:1;
-        padding: 0;
-  	}
-    .menus ul li a{
-      color: white;
-    }
-  	.active{
-  		display:block;
-  	}
-    .section1 .para2{
-      position: absolute;
-      right:0px;
-    }
-    .section2 .text h2{
-      font-size: 20px;
-      position: absolute;
-      right:0px;
-      top:50px;
-      margin-top: 10px;
-    }
-    .section2 .text a{
-      height: 30px;
-      padding: 10px;
-      position: relative;
-      top:230px;
-      left:0px;
-    }
-    .section3 .imagee{
-      position: absolute;
-      right:10px;
-    }
-    .section3 .text{
-      position: absolute;
-      left:0px;
-      font-size: 20px;
-    }
-    .section3 .text h2{
-      padding-bottom: 10px;
     }
 }
