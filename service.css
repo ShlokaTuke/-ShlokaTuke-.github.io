@@ -255,7 +255,7 @@ footer{
       font-size: 60px;
     }
     .section2 .text h2{
-      font-size: 30px;
+      font-size: 20px;
     }
     .section2 .text a{
       padding:5px;
@@ -278,10 +278,10 @@ footer{
       width:360px;
     }
     .section3 .text span{
-      font-size: 40px;
+      font-size: 20px;
     }
     .section3 .text h2{
-      font-size: 30px;
+      font-size: 20px;
     }
     .section3 .text a{
       padding:5px;
@@ -293,7 +293,7 @@ footer{
   		display:block;
   	}
   	ul {
-  		width:40%;
+  		width:720px;
       float:right;
   		display:none;
   		background:black;
@@ -317,7 +317,7 @@ footer{
       right:0px;
     }
     .section2 .text h2{
-      font-size: 35px;
+      font-size: 20px;
       position: absolute;
       right:0px;
       top:50px;
@@ -337,7 +337,7 @@ footer{
     .section3 .text{
       position: absolute;
       left:0px;
-      font-size: 35px;
+      font-size: 20px;
     }
     .section3 .text h2{
       padding-bottom: 10px;
