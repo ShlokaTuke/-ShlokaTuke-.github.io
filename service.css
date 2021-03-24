@@ -288,7 +288,7 @@ footer{
     }
 }
 
-@media screen and (max-width:410px){
+@media screen and (max-width:720px){
   	.toggle{
   		display:block;
   	}
@@ -342,4 +342,3 @@ footer{
     .section3 .text h2{
       padding-bottom: 10px;
     }
-}
