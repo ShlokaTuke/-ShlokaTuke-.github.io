@@ -208,3 +208,27 @@ footer{
 		display:block;
 	}
 }
+@media screen and (max-width:720px)
+{
+	.toggle{
+		display:block;
+	}
+	ul {
+		width:100%;
+		display:none;
+		background:black;
+    text-align: center;
+	}
+	.menus ul li{
+  float: none;
+	    display:block;
+	    z-index:1;
+      padding: 0;
+	}
+  .menus ul li a{
+    color: white;
+  }
+	.active{
+		display:block;
+	}
+}
