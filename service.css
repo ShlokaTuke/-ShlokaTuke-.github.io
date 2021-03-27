@@ -5,70 +5,12 @@
   outline: none;
   box-sizing: border-box;
   font-family: sans-serif;
+  text-decoration: none;
 }
 .logo{
   position: absolute;
   top:5px;
   left:5px;
-}
-.section1{
-  position: relative;
-  background-color: #FFB20D;
-  width: 100%;
-  height: 500px;
-}
-.para1{
-  position: absolute;
-  top:150px;
-  left:100px;
-  width: 450px;
-  height: 200px;
-}
-.para1 h1{
-  font-size: 50px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 10px;
-  position: relative;
-  animation-name: solution;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-@keyframes solution {
-  0%{top:-200px;}
-  100%{top:0px;}
-}
-@keyframes para2 {
-0%{transform: rotate(0deg);}
-50%{transform: rotate(30deg);}
-100%{transform: rotate(0deg);}
-}
-.para1  a{
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  height: 30px;
-  border-radius: 5px;
-  background: black;
-  padding: 10px;
-  position: relative;
-  animation-name: solulink;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-}
-@keyframes solulink {
-  0%{right:-300px;}
-  100%{right:0px;}
-}
-.para1 a:hover{
-  background: white;
-  color:black;
-}
-.para2{
-  position: absolute;
-  right: 270px;
-  top:100px;
-  animation: para2 2s forwards;
 }
 .menus{
   position: fixed;
@@ -83,7 +25,6 @@
   left:0;
   top:-25px;
 }
-
 .menus ul li{
   float:right;
   display: inline-block;
@@ -112,258 +53,63 @@
   display:none;
   color: black;
   }
-.section2{
-  width:100%;
-  height: 500px;
-  position: relative;
-  background: #BBD631;
-}
-.section2 .imagee{
-  position: absolute;
-  top:20px;
-  left:30px;
-}
-.section2 .text{
-  position: absolute;
-  right:80px;
-  top:40px;
-  width:600px;
-}
-.section2 .text span{
-  font-size: 80px;
-  display: inline-block;
-}
-.section2 .text h2{
-  font-size: 50px;
-  color: #fff;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-.text a{
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  height: 30px;
-  border-radius: 5px;
-  background: black;
-  padding: 10px;
-}
-.text a:hover{
-  background: white;
-  color:black;
-}
-.section3{
-  position: relative;
-  width: 100%;
-  height: 600px;
-  background: #212121;
-}
-.section3 .imagee{
-  position: absolute;
-  right:150px;
-  top:70px;
+
+  .section1{
+    display: flex;
+    padding-top: 60px;
+    flex-direction: row;
+    background:#FFB20D;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
-.section3 .text{
-  position: absolute;
-  top:200px;
-  left:100px;
-  width:550px;
-}
-.section3 .text span{
-  font-size: 50px;
-}
-.section3 .text h2{
-  font-size: 35px;
-  color: #fff;
-  margin-bottom: 10px;
-}
-footer{
-	padding:20px;
-	background:#FFB20D;
-	color:black;
-	text-align:center;
-  font-weight: bold;
-}
-
-@media screen and (max-width:360px){
-  	.toggle{
-  		display:block;
-  	}
-  	ul {
-  		width:40%;
-      float:right;
-  		display:none;
-  		background:black;
-      text-align: center;
-      padding-bottom: 10px;
-  	}
-  	.menus ul li{
-    float: none;
-  	    display:block;
-  	    z-index:1;
-        padding: 0;
-  	}
-    .menus ul li a{
-      color: white;
-    }
-  	.active{
-  		display:block;
-  	}
-    .section1{
-      height: 700px;
-      width:360px;
-      text-align: center;
-    }
-    .section1 .para1{
-      position: absolute;
-      top:500px;
-      left:0px;
-      width:360px;
-      animation: none;
-    }
-    .section1 .para2{
-      position: absolute;
-      left:20px;
-      animation: none;
-    }
-    .section1 .para1 h1{
-      animation: none;
-    }
-    .section1 .para1 a{
-      animation: none;
-    }
-    .menus{
-      width: 360px;
-    }
-    .section2{
-      height: 700px;
-      width:360px;
-      text-align: center;
-    }
-    .section2 .imagee{
-      position: absolute;
-      top:20px;
-      left:0px;
-    }
-    .section2 .text{
-      position: absolute;
-      left:0px;
-      top:450px;
-      width:360px;
-    }
-    .section2 .text span{
-      font-size: 20px;
-    }
-    .section2 .text h2{
-      font-size: 20px;
-    }
-    .section2 .text a{
-      padding:5px;
-    }
-
-    .section3{
-      height: 700px;
-      width:360px;
-      text-align: center;
-    }
-    .section3 .imagee{
-      position: absolute;
-      top:20px;
-      left:0px;
-    }
-    .section3 .text{
-      position: absolute;
-      left:0px;
-      top:550px;
-      width:360px;
-    }
-    .section3 .text span{
-      font-size: 20px;
-    }
-    .section3 .text h2{
-      font-size: 20px;
-    }
-    .section3 .text a{
-      padding:5px;
-    }
-}
-@media screen and (max-width:720px)
-{
-	.toggle{
-		display:block;
-	}
-	ul {
-		width:40%;
-		display:none;
-		background:black;
+  .section1 .parts{
+    height:400px;
+    width:auto;
     text-align: center;
-	}
-	.menus ul li{
-  float: none;
-	    display:block;
-	    z-index:1;
+    font-size: 30px;
+    color: white;
+  }
+  .section1 .parts a{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    padding:10px;
+    padding-top: 5px;
+  }
+  .section1 .parts a:hover{
+    background: white;
+    color: black;
+  }
+@media screen and (max-width:360px){
+  .toggle{
+    display:block;
+  }
+  ul {
+    width:40%;
+    float:right;
+    display:none;
+    background:black;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .menus ul li{
+      float: none;
+      display:block;
+      z-index:1;
       padding: 0;
-	}
+  }
   .menus ul li a{
     color: white;
   }
-	.active{
-		display:block;
-	}
-}
-
-@media screen and (max-width:720px){
-  	.toggle{
-  		display:block;
-  	}
-  	ul {
-  		width:40%;
-      float:right;
-  		display:none;
-  		background:black;
-      text-align: center;
-      padding-bottom: 10px;
-  	}
-  	.menus ul li{
-    float: none;
-  	    display:block;
-  	    z-index:1;
-        padding: 0;
-  	}
-    .menus ul li a{
-      color: white;
-    }
-  	.active{
-  		display:block;
-  	}
-    .section1 .para2{
-      position: absolute;
-      right:0px;
-    }
-    .section2 .text h2{
-      font-size: 35px;
-      position: absolute;
-      right:0px;
-      top:50px;
-      margin-top: 10px;
-    }
-    .section2 .text a{
-      height: 30px;
-      padding: 10px;
-      position: relative;
-      top:230px;
-      left:0px;
-    }
-    .section3 .imagee{
-      position: absolute;
-      right:10px;
-    }
-    .section3 .text{
-      position: absolute;
-      left:0px;
-      font-size: 35px;
-    }
-    .section3 .text h2{
-      padding-bottom: 10px;
-    }
+  .active{
+    display:block;
   }
+  .section1{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1 .parts{
+    height:350px;
+    justify-content: center;
+  }
+}
