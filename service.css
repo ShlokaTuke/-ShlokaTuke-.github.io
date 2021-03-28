@@ -7,11 +7,6 @@
   font-family: sans-serif;
   text-decoration: none;
 }
-.logo{
-  position: absolute;
-  top:5px;
-  left:5px;
-}
 .menus{
   position: fixed;
   height: 55px;
@@ -53,7 +48,6 @@
   display:none;
   color: black;
   }
-
   .section1{
     display: flex;
     padding-top: 60px;
@@ -111,5 +105,30 @@
   .section1 .parts{
     height:350px;
     justify-content: center;
+  }
+}
+@media screen and (max-width:720px){
+  .toggle{
+    display:block;
+  }
+  ul {
+    width:40%;
+    float:right;
+    display:none;
+    background:black;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .menus ul li{
+      float: none;
+      display:block;
+      z-index:1;
+      padding: 0;
+  }
+  .menus ul li a{
+    color: white;
+  }
+  .active{
+    display:block;
   }
 }
