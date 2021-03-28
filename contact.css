@@ -130,7 +130,6 @@ padding-top: 10px;
     width: 100%;
     max-width: 300px;
     margin: 10px 0;
-
   }
   .menus ul li{
     position: relative;
@@ -176,58 +175,15 @@ padding-top: 10px;
 	.active{
 		display:block;
 	}
-  .director{
-    text-align: center;
-    width: 100%;
-    position: relative;
-    left:0px;
-  }
-  .director p{
-      margin-bottom: 20px;
-  }
   .container{
     position:relative;
     left:0px;
   }
+  .container {
+    flex-direction: column;
   }
-  @media screen and (max-width:720px)
-  {
-  	.toggle{
-  		display:block;
-  	}
-  	ul {
-  		width:720px;
-      float:right;
-  		display:none;
-  		background:black;
-      text-align:center;
-      padding-bottom: 10px;
-  	}
-  	.menus ul li{
-    float: none;
-  	    display:block;
-  	    z-index:1;
-        padding: 0;
-        text-align: center;
-  	}
-    .menus ul li a{
-      color: white;
-      text-align: center;
-    }
-  	.active{
-  		display:block;
-  	}
-    .container{
-        margin-top: 0px;
-        align-items: center;
-        justify-content: center;
-        padding: 0 0px;
-        position:relative;
-      }
-    }
-    .container .card{
-      margin-top: 150px;
-      justify-content: center;
-      position: relative;
-    }
-}
+  .card{
+    width: 100%;
+    max-width: 300px;
+  }
+  }
