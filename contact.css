@@ -64,7 +64,7 @@ body{
     top:100px;
     right:100px;
   }
-@media screen and (max-width:360px)
+@media screen and (max-width:400px)
 {
 	.toggle{
 		display:block;
@@ -99,7 +99,7 @@ body{
     border: 2px solid black;
   }
   #mapp{
-    width:350;
+    width:300;
     height:450;
   }
   .address{
@@ -109,6 +109,5 @@ body{
     position: absolute;
     top:600px;
     right:0px;
-
-  }
 }
+  }
