@@ -79,7 +79,7 @@
     display:block;
   }
   ul {
-    width:40%;
+    width:100%;
     float:right;
     display:none;
     background:black;
@@ -112,7 +112,7 @@
     display:block;
   }
   ul {
-    width:40%;
+    width:100%;
     float:right;
     display:none;
     background:black;
