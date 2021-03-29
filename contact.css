@@ -136,4 +136,18 @@ body{
       top:60px;
       right:0px;
   }
+}
+  @media screen and (max-width:900px){
+    .map{
+      display: none;
+    }
+    .address{
+      display: inline-block;
+      width:350px;
+      height:400px;
+      position: absolute;
+      top:60px;
+      right:0px;
   }
+  }
+  
