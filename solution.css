@@ -89,13 +89,13 @@
 @media screen and (max-width:360px){
   .explain{
     height:500px;
-    width: 80%;
+    width: 100%;
 }
   .explain span{
     font: 20px;
 }
   .explain p{
-    font-size: 20px;
+    font-size: 15px;
     position: relative;
     top:60%;
 }
