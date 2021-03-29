@@ -408,10 +408,18 @@ svg{
   position: absolute;
   top:100px;
   left:0px;
+  height:120px;
+}
+.workhours h2{
+  padding-top:20px;
 }
 .Address{
   position: absolute;
   top:250px;
   left:0px;
+  height:120px;
+}
+.Address h2{
+  padding-top:20px;
 }
 }
