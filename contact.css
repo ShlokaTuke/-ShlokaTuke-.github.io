@@ -125,4 +125,15 @@ body{
   	.active{
   		display:block;
   	}
+    .map{
+      display: none;
+    }
+    .address{
+      display: inline-block;
+      width:350px;
+      height:400px;
+      position: absolute;
+      top:60px;
+      right:0px;
+  }
   }
