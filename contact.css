@@ -99,8 +99,7 @@ body{
     border: 2px solid black;
   }
   #mapp{
-    width:150;
-    height:450;
+    display:none;
   }
   .address{
     display: inline-block;
